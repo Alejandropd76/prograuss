@@ -10,13 +10,10 @@ st.sidebar.button("Haz clic en la barra lateral")
 
 texto_ingresado = st.sidebar.text_input("Escribe una palabra:")
 st.sidebar.write(f"Escribiste: {texto_ingresado}")
-
-st.header("Mi primera aplicación de Streamlit")
-st.subheader("¡Hola, Alejandro!")
-
-texto_principal = st.text_input("Escribe algo:")
-
-
-#st.image("logo_uss.png", use_container_width=True)
-
+col1, col2 = st.columns(2)
+with col1:
+  st.image("logo_uss.png", use_container_width=True)
+with col2:
+  texto_principal = st.sidebar.text_input("Escribe algo:")
+  st.sidebar.write(f"Escribiste_esto: {texto_principal}")
 
