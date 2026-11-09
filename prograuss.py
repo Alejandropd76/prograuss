@@ -4,7 +4,7 @@ import streamlit as st
 col1, col2 = st.columns(2)
 with col1:
   st.image("logo_uss.png", use_container_width=True)
-  texto_principal = st.text_input("Escribe algo:")
+  texto_principal = st.write("Escribe algo:")
 with col2:
   
   st.write(f"Escribiste_esto: {texto_principal}")
