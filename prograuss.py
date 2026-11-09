@@ -7,14 +7,12 @@ st.sidebar.write("Esto es una barra lateral")
 st.sidebar.image("logo_uss.png", use_container_width=True)
 
 st.sidebar.button("Haz clic en la barra lateral")
-texto_ingresado = st.sidebar.text_input("Escribe una palabra:")
-st.sidebar.write(f"Escribiste: {texto_ingresado}")
 
 st.header("Mi primera aplicación de Streamlit")
 st.subheader("¡Hola, Alejandro!")
 
 st.image("logo_uss.png", use_container_width=True)
 
-texto_principal = st.text_input("Escribe otra palabra:")
-st.write(f"Escribiste_esto: {texto_principal}")
+texto_ingresado = st.text_input("Escribe una palabra:")
+st.write(f"Escribiste: {texto_ingresado}")
 
