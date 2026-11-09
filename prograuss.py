@@ -3,7 +3,7 @@ import streamlit as st
 st.image("logo_uss.png", use_container_width=True)
 
 texto_principal = st.text_area("Escribe algo:")
-st.write(f"Escribiste_esto: {texto_principal}")
+st.write(f"Escribiste esto: {texto_principal}")
 
 st.sidebar.header("Mi primera barra lateral de Streamlit")
 st.sidebar.subheader("¡Hola, Alejandro!")
