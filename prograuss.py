@@ -5,7 +5,7 @@ st.sidebar.subheader("¡Hola, Alejandro!")
 
 st.sidebar.image("logo_uss.png", use_container_width=True)
 
-st.sidebar.text_input("Haz clic en esta casilla")
+st.sidebar.button("Haz clic en esta casilla")
 
 texto_ingresado = st.sidebar.text_input("Escribe una palabra:")
 
