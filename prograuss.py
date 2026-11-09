@@ -12,7 +12,6 @@ texto_ingresado = st.sidebar.text_input("Escribe una palabra:")
 st.header("Mi primera aplicación de Streamlit")
 st.write("¡Hola, Streamlit!")
 
-# Imagen de la universidad en el área principal
 st.image("logo_uss.png", use_container_width=True)
-st.text_input("Escribiste:", value=texto_ingresado)
+st.text_input("Escribiste:", texto_ingresado, disabled=True)
 
