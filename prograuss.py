@@ -13,5 +13,5 @@ st.header("Mi primera aplicación de Streamlit")
 st.write("¡Hola, Streamlit!")
 
 st.image("logo_uss.png", use_container_width=True)
-st.write(f"Escribiste:{ texto_ingresado}")
+st.write(f"Escribiste: {texto_ingresado}")
 
