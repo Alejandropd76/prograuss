@@ -14,5 +14,6 @@ st.subheader("¡Hola, Alejandro!")
 
 st.image("logo_uss.png", use_container_width=True)
 texto_ingresado = st.text_input("Escribe una palabra:")
+
 st.write(f"Escribiste: {texto_ingresado}")
 
