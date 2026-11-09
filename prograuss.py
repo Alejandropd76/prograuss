@@ -14,5 +14,5 @@ st.write("¡Hola, Streamlit!")
 
 # Imagen de la universidad en el área principal
 st.image("logo_uss.png", use_container_width=True)
-st.write(f"Escribiste: {texto_ingresado}")
+st.text_input(f"Escribiste: {texto_ingresado}")
 
