@@ -13,7 +13,8 @@ st.sidebar.write(f"Escribiste: {texto_ingresado}")
 col1, col2 = st.columns(2)
 with col1:
   st.image("logo_uss.png", use_container_width=True)
+  texto_principal = st.text_input("Escribe algo:")
 with col2:
-  texto_principal = st.sidebar.text_input("Escribe algo:")
+  
   st.write(f"Escribiste_esto: {texto_principal}")
 
