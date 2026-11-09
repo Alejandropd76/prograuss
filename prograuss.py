@@ -6,7 +6,7 @@ with col1:
   st.image("logo_uss.png", use_container_width=True)
   texto_principal = st.write("Escribe algo:")
 with col2:
-  
+  st.text_input("HHH")
   st.write(f"Escribiste_esto: {texto_principal}")
 
 st.sidebar.header("Mi primera barra lateral de Streamlit")
